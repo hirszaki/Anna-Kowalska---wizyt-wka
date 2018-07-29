@@ -1,0 +1,169 @@
+body{
+
+}
+
+
+#header
+{
+	height:220px;
+	background-image:url("img/photo2.jpg");
+	background-position:center;
+	background-size:cover;
+	padding-top:60px;	
+}
+#pic
+
+{
+	width: 100px;
+    height: 120px;
+    border-radius: 50%; 
+    overflow: hidden;
+    margin: 0 auto;
+    box-shadow: 1px 1px 3px;
+}
+
+#info
+{
+	text-align:center;
+}
+h1
+{
+	font-weight:300px;
+	font-family:'Lato',sans-serif;
+	line-height:2px;
+}
+
+p
+{
+	font-weight:100px;
+	font-family:'Lato',sans-serif;
+	font-style:oblique;
+	
+}
+#article
+{
+	height:730px;
+	width:800px;
+	padding-top:60px;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+#pic1
+{
+	float:left;
+    height:200px;
+	width:200px;
+	margin-bottom:20px;
+	
+	
+}
+
+#text
+{
+	float:left;
+	width:553px;
+	height:199px;
+	padding-left:10px;
+	padding-right:10px;
+	margin-left:25px;
+	margin-bottom:20px;
+	border-style:solid;
+	border-color:blue;
+	border-width:1px;
+	background-color:#E0FFFF;
+}
+
+#text1
+{
+	float:left;
+	width:553px;
+	height:199px;
+	padding-left:10px;
+	padding-right:10px;
+	margin-right:25px;
+	margin-bottom:20px;
+	border-style:solid;
+	border-color:blue;
+	border-width:1px;
+	background-color:#E0FFFF;
+}
+
+#pic2
+{
+	float:right;
+	height:200px;
+	width:200px;
+}
+
+#pic3
+{
+	
+    height:200px;
+	width:200px;
+	
+}
+#text2
+{
+	float:right;
+	width:553px;
+	height:199px;
+	margin-left:25px;
+	padding-left:10px;
+	padding-right:10px;
+	border-style:solid;
+	border-color:blue;
+	border-width:1px;
+	background-color:#E0FFFF;
+	
+}
+
+	
+
+h2,h3,h4
+
+{
+	font-size:20px;
+	height:13px;
+	margin-top:5px;;
+}
+p1,p2,p3
+{
+	font-size:12px;
+	text-align:center-left;
+	
+}
+
+#footer
+{
+	clear:both;
+	display:flex;
+	justify-content:center;
+	background-color:lightgray;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.nav-item
+{
+  transition: all 0.3s ease-in-out;
+  border-radius: 100%;
+  border: solid 1px #fff;
+  width: 52px;
+  height: 52px;
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-item:hover {
+  cursor: pointer;
+  background-color: lightblue;
+}
+
+.nav-item a {
+  font-size: 28px;
+}
+
+
+
